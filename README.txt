@@ -6,14 +6,18 @@ into two parts and display it for example above and below another component.
 
 The following features for raptus.article are provided by this package:
 
-    * Provides an additional WYSIWYG text field for the articles.
-    * Components:
-        * Additional text (displays your text above an image or a video)
-        * Additional text left (displays your text in a separate column on the left)
-        * Additional text right (displays your text in a separate column on the right)
+Fields
+------
+    * Additional WYSIWYG text field for the articles.
 
-Dependencies:
+Components
+----------
+    * Additional text (displays your text above an image or a video)
+    * Additional text left (displays your text in a separate column on the left)
+    * Additional text right (displays your text in a separate column on the right)
 
+Dependencies
+------------
     * archetypes.schemaextender
     * raptus.article.core
 
@@ -66,7 +70,5 @@ wysiwyg components and press "save and view".
 Copyright and credits
 =====================
 
-raptus.article is copyrighted by raptus_, and licensed under the GPL. 
+raptus.article is copyrighted by `Raptus AG <http://raptus.com>`_ and licensed under the GPL. 
 See LICENSE.txt for details.
-
-.. _raptus: http://raptus.com/ 

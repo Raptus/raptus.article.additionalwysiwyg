@@ -10,8 +10,9 @@ Code overview
 
 Adapters
 --------
-file: wysiwyg.py
 
+file: wysiwyg.py
+````````````````
 - WYSIWYG (Provider for an additional WYSIWYG text of an article)
     - provides: IWYSIWYG
     - adapts: IArticle
@@ -19,11 +20,12 @@ file: wysiwyg.py
 
 Components
 ----------
-above content title:
 
+plone.abovecontenttitle
+```````````````````````
 - raptus.article.wysiwyg.left
 - raptus.article.wysiwyg.right
 
-above content body:
-
+plone.abovecontentbody
+``````````````````````
 - raptus.article.wysiwyg.full
