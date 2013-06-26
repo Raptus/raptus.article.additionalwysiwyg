@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-01-19 12:35+0000\n"
+"POT-Creation-Date: 2013-06-26 07:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,32 +17,48 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: raptus.article\n"
 
-#: raptus.article.additionalwysiwyg/raptus/article/additionalwysiwyg/browser/wysiwyg.py:77
+#: ./browser/wysiwyg.py:85
 msgid "Additional text"
 msgstr ""
 
-#: raptus.article.additionalwysiwyg/raptus/article/additionalwysiwyg/browser/wysiwyg.py:22
+#: ./browser/wysiwyg.py:139
+msgid "Additional text bottom"
+msgstr ""
+
+#: ./browser/wysiwyg.py:24
 msgid "Additional text left"
 msgstr ""
 
-#: raptus.article.additionalwysiwyg/raptus/article/additionalwysiwyg/browser/wysiwyg.py:23
+#: ./browser/wysiwyg.py:140
+msgid "Additional text on the bottom."
+msgstr ""
+
+#: ./browser/wysiwyg.py:25
 msgid "Additional text on the left side."
 msgstr ""
 
-#: raptus.article.additionalwysiwyg/raptus/article/additionalwysiwyg/browser/wysiwyg.py:54
+#: ./browser/wysiwyg.py:59
 msgid "Additional text on the right side."
 msgstr ""
 
-#: raptus.article.additionalwysiwyg/raptus/article/additionalwysiwyg/browser/wysiwyg.py:78
+#: ./browser/wysiwyg.py:113
+msgid "Additional text on top."
+msgstr ""
+
+#: ./browser/wysiwyg.py:86
 msgid "Additional text over the whole width."
 msgstr ""
 
-#: raptus.article.additionalwysiwyg/raptus/article/additionalwysiwyg/browser/wysiwyg.py:53
+#: ./browser/wysiwyg.py:58
 msgid "Additional text right"
 msgstr ""
 
+#: ./browser/wysiwyg.py:112
+msgid "Additional text top"
+msgstr ""
+
 #. Default: "Additional Text"
-#: raptus.article.additionalwysiwyg/raptus/article/additionalwysiwyg/extender.py:33
+#: ./extender.py:33
 msgid "label_additional_text"
 msgstr ""
 

@@ -8,6 +8,19 @@
 
  <order manager="plone.abovecontentbody" skinname="*">
   <viewlet name="raptus.article.wysiwyg.full" insert-before="*" />
+  <viewlet name="raptus.article.wysiwyg.top" insert-before="*" />
  </order>
+
+ <order manager="plone.belowcontent" skinname="*">
+  <viewlet name="raptus.article.wysiwyg.bottom" insert-after="*" />
+ </order>
+
+ <hidden manager="plone.abovecontentbody" skinname="*">
+  <viewlet name="raptus.article.wysiwyg.top" />
+ </hidden>
+
+ <hidden manager="plone.belowcontent" skinname="*">
+  <viewlet name="raptus.article.wysiwyg.bottom" />
+ </hidden>
 
 </object>

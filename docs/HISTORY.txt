@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.0b7 (unreleased)
+------------------
+
+* Added two new components (additionaltext.top and additionaltext.bottom) which are
+  hidden by default
+
 2.0b6 (2010-11-10)
 ------------------
 

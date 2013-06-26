@@ -21,4 +21,16 @@
         viewlet=".wysiwyg.ViewletRight"
         manager="plone.app.layout.viewlets.interfaces.IAboveContentTitle" />
 
+    <article:component
+        name="wysiwyg.top"
+        component=".wysiwyg.ComponentTop"
+        viewlet=".wysiwyg.ViewletTop"
+        manager="plone.app.layout.viewlets.interfaces.IAboveContentBody" />
+
+    <article:component
+        name="wysiwyg.bottom"
+        component=".wysiwyg.ComponentBottom"
+        viewlet=".wysiwyg.ViewletBottom"
+        manager="plone.app.layout.viewlets.interfaces.IBelowContent" />
+
 </configure>
